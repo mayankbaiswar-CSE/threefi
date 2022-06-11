@@ -1,6 +1,6 @@
 import React from 'react';
 import { Popover } from '@headlessui/react';
-import Web3 from 'web3';
+import Web3 from 'web3/dist/web3.min.js';
 
 export default function App() {
     const [account, setAccount] = React.useState(null);
