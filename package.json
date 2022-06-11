@@ -1,0 +1,21 @@
+{
+  "name": "threefi",
+  "version": "1.0.0",
+  "description": "web3 starter",
+  "source": "./public/index.html",
+  "repository": "git@github.com:mayankbaiswar-CSE/threefi.git",
+  "author": "Mayank Baiswar <mbaiswar@atlassian.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  }
+}
